@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form</title>
+</head>
+
+<body>
+  
+  <!-- Div is used here -->
+  
+  <div style="background-color: lightblue; height: 50; width: 70;">
+    <h1>Student Registration</h1>
+    
+      <!-- Registration form -->
+    <form action="#" method="post">
+    
+      <!-- First name input -->
+    <label for="first_name">First Name
+    </label>
+    <input type="text" name="First Name" id="first_name" required><br>
+    
+      <!-- Last name input -->
+     <label for="last_name">Last Name
+    </label>
+    <input type="text" name="Last Name" id="last_name" required><br>
+    
+      <!-- Age input -->
+    <label for="age">Age</label>
+    <input type="number" name="Age" id="age" min="10" max="99" required><br>
+    
+          <!-- email input -->
+    <label for="email">Email</label>
+    <input type="email" name="Email" id="email" placeholder="example@gamil.com" required><br>
+    
+          <!-- Phone number input-->
+    <label for="phone_number">Phone number</label>
+    <input type="tel" name="Phone number" id="phone_number" placeholder="08123654543"><br>
+    
+          <!-- Password input -->
+    <label for="password">Password</label>
+      <input type="password" name="password" id=" name = "password" minlength="8" required><br>
+      
+      <p><b>There is a big difference between check boxes and radio buttons. <br>Check boxes allows you to make multiple choices. <br> Radio button only allows you to make one choice.</b></p>
+      
+            <!--Radio buttons for gender -->
+      <h4>Gender:</h4>
+      <input type="radio" name="gender" id="male">
+      <label for="male">Male</label>
+      
+      <input type="radio" name="gender" id="female">
+      <label for="female">Female</label>
+      
+      <input type="radio" name="gender" id="quiet">
+      <label for="quiet">prefer not to say</label><br>
+      
+           <!-- Check boxes for selection -->
+      <h4>Courses interested in:</h4>
+      <input type="checkbox" name="course" id="mathematics>
+      <label for="mathematics">Mathematics</label><br>
+      
+      <input type="checkbox" name="course" id="literature>
+      <label for="literature">Literature</label><br>
+      
+      <input type="checkbox" name="course" id="science>
+      <label for="science">Science</label><br>
+      
+      <input type="checkbox" name="course" id="computer>
+      <label for="computer">Computer</label><br>
+      
+      <input type="checkbox" name="course" id="philosophy>
+      <label for="philosophy">Philosophy</label><br>
+      
+  <!-- Buttons for submit and reseet-->
+  <button type="submit">Register Now</button>
+  <button type="reset">Clear Now</button>
+  
+  </div>
+  </form>
+</body>
+
+</html>
